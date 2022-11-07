@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.china1, .china2, .china3{
+    height: 400px;
+    width: 80%;
+    border: 5px solid black;
+    box-shadow: 0 0 30px gray;
+}
+
+.china1{
+    border:5px solid rgb(0, 0, 0);
+}
+
+.china2{
+    border:5px solid rgb(0, 0, 0);
+}
+
+.china3{
+    border:5px solid rgb(0, 0, 0);
+}
+
+.carousel-item{
+    margin: 0px 50px;
+}
+
+.pb:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+
+.np:hover{
+    background: rgba (255, 255, 255, 0.505);
+}
+
+.carousel-caption{
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.400);
+    border-radius: 20px;
+   
+}
+
+.btn{
+    margin: 10px;
+}
